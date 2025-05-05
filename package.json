@@ -1,0 +1,41 @@
+{
+    "name": "whatsapp-ai-function-bot",
+    "version": "1.0.0",
+    "description": "WhatsApp chatbot with AI function calling capabilities",
+    "main": "dist/index.js",
+    "scripts": {
+      "build": "tsc",
+      "start": "node dist/index.js",
+      "dev": "ts-node-dev --respawn src/index.ts",
+      "lint": "eslint . --ext .ts"
+    },
+    "keywords": [
+      "whatsapp",
+      "openai",
+      "function-calling",
+      "ai",
+      "chatbot",
+      "typescript",
+      "websocket"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "dotenv": "^16.3.1",
+      "openai": "^4.11.0",
+      "qrcode-terminal": "^0.12.0",
+      "ts-node": "^10.9.1",
+      "whatsapp-web.js": "^1.22.1",
+      "ws": "^8.14.2"
+    },
+    "devDependencies": {
+      "@types/node": "^20.8.2",
+      "@types/qrcode-terminal": "^0.12.0",
+      "@types/ws": "^8.5.6",
+      "@typescript-eslint/eslint-plugin": "^6.7.4",
+      "@typescript-eslint/parser": "^6.7.4",
+      "eslint": "^8.50.0",
+      "ts-node-dev": "^2.0.0",
+      "typescript": "^5.2.2"
+    }
+  }
